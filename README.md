@@ -1,8 +1,8 @@
 # DISASTROUS DEFAULTS
 
-# Christian Gouriéroux, Alain Monfort,
-# Jean-Paul Renne and Sarah Mouabbi
-# Contact: jean-paul.renne@unil.ch
+Christian Gouriéroux, Alain Monfort,
+Jean-Paul Renne and Sarah Mouabbi
+Contact: jean-paul.renne@unil.ch
 
 Attached R codes allow the replication of the results and figures displayed in "Disastrous Default", by Gouriéroux, Monfort, Mouabbi and Renne.
 
