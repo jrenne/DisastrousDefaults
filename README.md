@@ -1,27 +1,15 @@
-# Disastrous Defaults
-
-# =======================================
 # DISASTROUS DEFAULTS
-# =======================================
+
 # Christian Gouriéroux, Alain Monfort,
 # Jean-Paul Renne and Sarah Mouabbi
 # Contact: jean-paul.renne@unil.ch
-# =======================================
-# This version: October 2020
-# =======================================
 
-# =======================================
 Attached R codes allow the replication of the results and figures displayed in "Disastrous Default", by Gouriéroux, Monfort, Mouabbi and Renne.
 
 The present README file explains to use of theses codes.
-# =======================================
 
 
-
-
-# =======================================
 # A - To run the codes with default options
-# =======================================
 
 The user just has to source "main.R" to produce the tables and figures of the paper.
 
@@ -30,9 +18,7 @@ The only required change is the specification of the appropriate path--line 18 o
 Make sure all required libraries (see top of main.R) are loaded.
 
 
-# =======================================
 # B - Outputs
-# =======================================
 
 The outputs are generated if indic.produce.outputs == 1 (default option in main.R).
 
@@ -41,9 +27,7 @@ Outputs are stored in the "figures" and "tables" folders.
 The production of all outputs takes about 1 hour using a laptop with a processor 2.3 GHz 8-Core Intel Core i9 (Memory 16 GB 2667 MHz DDR4). This time can be reduced if one diminishes the number of replications of the Monte-Carlo simulations ("nb.replications" in main.R) carried out to study the sensitivity of results to parameter uncertainty (confidence intervals in the plots showing the factors and the disaster indicators). Note that these replications make use of parallel computing; the number of cores used to do so is defined by "number.of.cores" in main.R.
 
 
-# =======================================
 # C - The different settings
-# =======================================
 
 At the beginning of main.R, the user can determine the type of computation carried out:
 
@@ -57,10 +41,7 @@ At the beginning of main.R, the user can determine the type of computation carri
 - In order to produce the different outputs (figures and charts) displayed in the paper, set indic.produce.outputs to 1 (otherwise 0).
 
 
-
-# =======================================
 # D - Data
-# =======================================
 
 The data are in csv files, in folder data.
 
@@ -78,9 +59,7 @@ The file Dc_KS.csv is created by data/make.bimonth.conso.R (see Part F). The lat
 
 
 
-# =======================================
 # E - Estimation
-# =======================================
 
 # ---- Single model estimation ----
 
@@ -100,9 +79,7 @@ The number of cores used for this is specified in main.R (number.of.cores). Esti
 
 
 
-# =======================================
 # F - Auxiliary codes
-# =======================================
 
 ===> outputs/load.alternative.estimated.models.R <===
 This script prepares outputs for models that have been estimated without some channels (i.e. with no contagion and/or no macro effects of defaults).
