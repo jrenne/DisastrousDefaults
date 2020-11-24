@@ -49,7 +49,7 @@ The macroeconomic data (consumption) are in macro_data.csv. They are from the AW
 
 The (main) iTraxx data are in ITRAXX4R.csv. These data are extracted from Datastream. The associated Excel Datastream extraction file is data/DatastreamExtractionFiles/ITRAXX.xlsx.
 
-The prices of tranche products are in data4R.csv, the data are based on http://www.creditfixings.com/CreditEventAuctions/itraxx.jsp (This file has to be filled.)
+The prices of tranche products are in data4R.csv, these data are from Markit and can be extracted e.g. from Refinitiv Eikon Premium, see also http://www.creditfixings.com/CreditEventAuctions/itraxx.jsp (This file has to be filled by the user.)
 
 The equity option prices are in AllOptionData.csv. The file Strike_and_ExpiryDates provides details regarding the expiry dates and strikes of considered options. The associated Excel Datastream extraction file is data/DatastreamExtractionFiles/AllOptionData.xlsx.
 
