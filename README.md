@@ -6,7 +6,7 @@ Contact: jean-paul.renne@unil.ch
 
 Attached R codes allow the replication of the results and figures displayed in "Disastrous Default", by Gouriéroux, Monfort, Mouabbi and Renne.
 
-The present README file explains to use of theses codes.
+The present README file explains how to use theses codes.
 
 
 # A - To run the codes with default options
